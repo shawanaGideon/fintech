@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+@tailwind utilities;
