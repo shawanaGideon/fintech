@@ -14,7 +14,7 @@ export enum BtnTypes {
 
 function StoreLink({ type }: StoreLinkProps) {
   const textLinkClassesA =
-    " hidden lg:flex gap-3 rounded-lg bg-zinc-900 px-4 py-3 text-white hover:bg-zinc-950 active:bg-zinc-800 ";
+    " hidden lg:flex md:flex gap-3 rounded-lg bg-zinc-900 px-4 py-3 text-white hover:bg-zinc-950 active:bg-zinc-800 ";
 
   const textLinkClassesB =
     " my-4 border flex gap-3 rounded-lg bg-transparent px-2 py-1 text-white hover:bg-zinc-950 active:bg-zinc-800 ";
